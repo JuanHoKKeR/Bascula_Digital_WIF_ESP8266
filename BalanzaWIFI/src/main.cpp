@@ -184,7 +184,7 @@ void loop() {
   }
 
   if (scale.wait_ready_timeout(200)) {
-    reading = round(scale.get_units(10));
+    reading = round(scale.get_units());
     if (reading != lastReading){
       if(mode==0){
         Serial.print("Weight: ");
