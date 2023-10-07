@@ -29,8 +29,8 @@ float pound_conversion = 0.00220462;
 String currentUnit = "g";
 
 // WiFi credentials
-const char *ssid = "didushis";
-const char *password = "metronomy123";
+const char *ssid = "Your SSID";
+const char *password = "Your Password";
 
 ESP8266WebServer server(80);
 
