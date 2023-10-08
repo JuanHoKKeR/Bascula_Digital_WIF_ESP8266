@@ -11,3 +11,7 @@ We implement these load cells using an HX711 module and the ESP8266 microcontrol
 This project includes two main code components:
 1. Gauge Calibration: This code is designed for calibrating the load cell with your specific setup.
 2. Weighing Machine: This code enables the use of a weighing machine with additional features, such as an SH1106 OLED display, buttons for selecting measurement types, and the option to use the ESP8266's Wi-Fi capabilities for reading and storing measurements through a local server.
+
+![Image of the assembly with the Esp, HX711 and the oled screen](https://github.com/JuanHoKKeR/Bascula_Digital_WIF_ESP8266/blob/master/ProjectImagen.jpg?raw=true)
+
+![Image of WebServer](https://github.com/JuanHoKKeR/Bascula_Digital_WIF_ESP8266/blob/master/WebServer.JPG?raw=true)
